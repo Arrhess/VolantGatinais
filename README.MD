@@ -93,7 +93,7 @@ Attention de respecter la nomenclature des différents champs créés dans cette
 + "Nb_Points" --> Type 'INT (11)'
 
 
-<img width="734" height="229" alt="Table_user" src="https://github.com/user-attachments/assets/da9c950f-861f-4c0b-863b-87b80ee3900b" />
+<img width="734" height="229" alt="Table_user" src="./Images/table_inscriptions.PNG" />
 
 
 **Table "tableau_principal" :**
@@ -110,7 +110,7 @@ Attention de respecter la nomenclature des différents champs créés dans cette
 + "victoireT3" --> Type 'VARCHAR (255)'
 
 
-<img width="763" height="185" alt="Table_menus" src="https://github.com/user-attachments/assets/92256a97-2751-46c2-91bc-1f6a5417deba" />
+<img width="763" height="185" alt="Table_menus" src="./Images/tableau_principal.PNG" />
 
 
 **Table "tableau_consolante" :**
@@ -126,7 +126,7 @@ Attention de respecter la nomenclature des différents champs créés dans cette
 + "victoireT3" --> Type 'VARCHAR (255)'
 
 
-<img width="576" height="334" alt="Table_commande" src="https://github.com/user-attachments/assets/dbc88ec3-66cd-47a3-91f2-4c7158b0db65" />
+<img width="576" height="334" alt="Table_commande" src="./Images/tableau_consolante.PNG" />
 
 ## configuration du fichier "./require/connect.php"
 
