@@ -337,8 +337,7 @@ if ($Nb_Equipe_SansPoule > 0){
                                                 score_set2_equipe1 = '$set2_equipe1',
                                                 score_set2_equipe2 = '$set2_equipe2',
                                                 score_set3_equipe1 = '$set3_equipe1',
-                                                score_set3_equipe2 = '$set3_equipe2',
-                                                statut = 'Terminé'
+                                                score_set3_equipe2 = '$set3_equipe2'
                                 WHERE id = '$match_score'";
                 $requete = $db -> exec($sql_match);
 
@@ -436,6 +435,11 @@ if ($Nb_Equipe_SansPoule > 0){
                                                         Nb_Sets = '$set_gagne_j2',
                                                         Nb_Points = '$point_j2'
                                         WHERE Equipe = '$equipe2_joueur'";
+
+                        $sql_statut = "UPDATE $poule_score SET 
+                                                statut = 'Terminé'
+                                        WHERE id = '$match_score'";
+                $requete = $db -> exec($sql_match);
 
                         $requete = $db->exec($sql_inscription2);
                         $requete = $db->exec($sql_poule2);
@@ -623,6 +627,15 @@ if ($Nb_Equipe_SansPoule > 0){
                         <option>4</option>
                         <option>5</option>
                         <option>6</option>
+                        <option >7</option>
+                        <option >8</option>
+                        <option >9</option>
+                        <option >10</option>
+                        <option >11</option>
+                        <option >12</option>
+                        <option >13</option>
+                        <option >14</option>
+                        <option >15</option>
                 </select>
 
                 <br>
